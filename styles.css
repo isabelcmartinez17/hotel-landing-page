@@ -1,0 +1,98 @@
+body {    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    height: 50px;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.logo {
+    width: 130px;
+    padding-left: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: flex-end;
+    padding-right: 40px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.one {
+    background-color: #1f2937;
+    padding-left: 40px;
+    color: #fff;
+}
+
+.container-text {
+    padding-bottom: 40px;
+}
+
+.container-text>h1 {
+    font-size: 48px;
+    font-size: 900;
+}
+
+.two {
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card>img {
+    width: 100px;
+}
+
+.main-img {
+    width: 500px;
+    align-self: flex-end;
+}
+
+.btn {
+    background-color: #2886F6;
+    padding: 10px 30px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4f9dfc;
+}
+
+.btn.cta {
+    border: 3px solid #fff;
+}
