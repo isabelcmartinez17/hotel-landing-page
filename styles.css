@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    height: 50px;
+    height: 60px;
     display: flex;    
     justify-content: space-between;
     align-items: center;
@@ -14,16 +14,16 @@ body {
 }
 
 .logo {
-    width: 130px;
-    padding-left: 40px;
+    width: 150px;
+    padding-left: 180px;
 }
 
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 50px;
     justify-content: flex-end;
-    padding-right: 40px;
+    padding-right: 180px;
     font-size: 18px;
 }
 
@@ -40,12 +40,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .one {
     background-color: #1f2937;
-    padding-left: 40px;
+    padding-left: 180px;
     color: #fff;
 }
 
@@ -64,18 +64,23 @@ a {
 
 .cards {
     display: flex;
-    width: 100px;
+    width: 200px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
 }
 
 .card>img {
-    width: 100px;
+   width: 250px;
+   height: 250px;
+   border-radius: 12px;
+   border: 4px solid #2886F6
 }
 
 .main-img {
-    width: 500px;
+    width: 800px;
     align-self: flex-end;
 }
 
