@@ -1,12 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {    
+    padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh;    
+    color: #1f2937;
+    font-size: 18px;
 }
 
 .header {
-    height: 60px;
+    padding: 5px;
     display: flex;    
     justify-content: space-between;
     align-items: center;
@@ -24,7 +32,6 @@ body {
     gap: 50px;
     justify-content: flex-end;
     padding-right: 180px;
-    font-size: 18px;
 }
 
 a {
@@ -47,19 +54,34 @@ a {
     background-color: #1f2937;
     padding-left: 180px;
     color: #fff;
-}
-
-.container-text {
-    padding-bottom: 40px;
+    gap: 50px;
 }
 
 .container-text>h1 {
     font-size: 48px;
-    font-size: 900;
+    font-size: bolder;
+}
+
+.container-text>p {
+    margin: 20px 0;
+}
+
+.main-img {
+    width: 800px;
+    align-self: flex-end;
 }
 
 .two {
     flex-direction: column;
+    padding: 50px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.two>h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .cards {
@@ -68,21 +90,54 @@ a {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 0;
-    margin: 0;
+    text-align: center;
 }
 
 .card>img {
-   width: 250px;
-   height: 250px;
+   width: 200px;
+   height: 180px;
    border-radius: 12px;
    border: 4px solid #2886F6
 }
 
-.main-img {
-    width: 800px;
-    align-self: flex-end;
+.three {
+    background-color: #e5e7eb;
+    padding: 80px 150px;
+    flex-direction: column;
 }
+
+.quote {
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.four {
+    padding: 80px 150px;
+}
+
+.call-to-action {
+    display: flex;
+    gap: 60px;
+    background-color: #2886F6;
+    padding: 40px 80px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.cta-text>h2 {
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
 
 .btn {
     background-color: #2886F6;
@@ -100,4 +155,12 @@ a {
 
 .btn.cta {
     border: 3px solid #fff;
+}
+
+footer {
+    padding: 20px;
+    background-color: #1f2937;
+    color: #fff;
+    text-align: center;
+    align-items: center;
 }
